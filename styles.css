@@ -54,7 +54,7 @@ header {
 }
 
 .information {
-    padding: 64px 64px;
+    padding: 64px;
 }
 
 .information h2 {
@@ -68,7 +68,8 @@ header {
 
 .items {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 64px;
 }
 
 .item {
@@ -84,6 +85,30 @@ header {
     margin: 0;
     margin-top: 8px;
     text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.quote {
+    padding: 64px 192px;
+    background-color: #e5e7eb;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+
+.quote h3 {
+    margin: 16px;
+    padding: 0 64px;
+    font-size: 24px;
+    text-align: end;
+    font-weight: normal;
+    color: #1f2937;
 }
 
 ul {
