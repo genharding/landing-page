@@ -48,6 +48,44 @@ header {
     margin: 0px;
 }
 
+.top img {
+    outline: 2px solid #f9faf8;
+    border-radius: 16px;
+}
+
+.information {
+    padding: 64px 64px;
+}
+
+.information h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin: 0;
+    margin-bottom: 64px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    flex: 0;
+}
+
+.item img {
+    outline: 2px solid #3882f6;
+    border-radius: 16px;
+}
+
+.item p {
+    margin: 0;
+    margin-top: 8px;
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     padding: 0px;
