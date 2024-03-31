@@ -68,8 +68,8 @@ header {
 
 .items {
     display: flex;
-    justify-content: center;
-    gap: 64px;
+    justify-content: space-evenly;
+    padding: 0 64px;
 }
 
 .item {
@@ -90,7 +90,7 @@ header {
 }
 
 .quote {
-    padding: 64px 192px;
+    padding: 64px 128px;
     background-color: #e5e7eb;
 }
 
@@ -110,6 +110,8 @@ header {
     font-weight: normal;
     color: #1f2937;
 }
+
+
 
 ul {
     list-style-type: none;
